@@ -10,6 +10,9 @@ if "%2"=="" (
 :: Get the file path from the second argument
 set "filePath=%~2"
 
+:: Replace forward slashes with backslashes
+set "filePath=%filePath:/=\%"
+
 :: Use Snipping Tool to copy screenshot to clipboard
 snippingtool /clip
 
