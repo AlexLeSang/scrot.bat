@@ -10,4 +10,3 @@ Script that emulates `scrot` used by `org-screenshot.el` for emacs org mode
 ``` shell
 scrot -s test.png
 ```
-
